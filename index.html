@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Nerds-League.svg" />
+    <title>Nerd's League</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+    * {
+        margin: 0px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .general {
+        background-color: black;
+        padding: 30px;
+    }
+
+    .navbar {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .navbar img {
+        width: 60px;
+
+    }
+
+    .dos {
+        width: 50%;
+    }
+
+    .dos2 {
+        width: 50%;
+        margin: 50px;
+    }
+
+    .contenido {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin: 0px 50px;
+    }
+
+    .texto {
+        color: white;
+        text-align: justify;
+        margin: 0px 50px;
+    }
+
+    .contenido img {
+        width: 500px;
+    }
+
+    .contenido h2 {
+        font-size: 71px;
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+    }
+
+    #flex {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    iframe {
+        width: 100%;
+        height: 60vh;
+        border: none;
+    }
+
+    .dos2 h1 {
+        text-align: center;
+    }
+
+    @media (max-width: 1050px) {
+        .contenido {
+            flex-direction: column;
+        }
+
+        .dos {
+            width: 100%;
+        }
+
+        .contenido h2 {
+            font-size: 70px;
+            text-align: center;
+            margin: 50px 0px 0px 0px;
+        }
+
+        #flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dos2 {
+            width: 100%;
+            margin: 50px;
+        }
+    }
+
+    @media (max-width: 540px) {
+        .contenido h2 {
+            font-size: 30px;
+        }
+
+        .dos img {
+            width: 400px;
+        }
+
+        .texto {
+            margin: 0px 20px;
+        }
+
+        .dos2 {
+            width: 100%;
+        }
+
+        .contenido {
+            margin: 0px 0px;
+        }
+    }
+</style>
+
+<body>
+    <div class="general">
+        <div class="navbar">
+            <h1>NERD'S LEAGUE</h1>
+        </div>
+
+        <div class="contenido">
+            <div class="dos">
+                <h2>¡BIENVENIDOS A LA NERD'S LEAGUE!</h2>
+            </div>
+            <div class="dos" id="flex">
+                <img src="Nerds-League.svg" alt="Logo">
+            </div>
+        </div>
+
+        <div class="texto">
+            <hr>
+            <br>
+            <h1>¿Qué es?</h1>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <br>
+        <div class="contenido">
+            <div class="dos2">
+                <br>
+                <br>
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS30zwhlysLQrzUHcNbgb8r1f-oDAXzVGRg4V8y1lcpC7NSX61vwVtr67bTzGnIQ0BS-yNYNuHEWPxs/pubhtml?gid=346028017&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+            </div>
+            <div class="dos2">
+                <br>
+                <br>
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS30zwhlysLQrzUHcNbgb8r1f-oDAXzVGRg4V8y1lcpC7NSX61vwVtr67bTzGnIQ0BS-yNYNuHEWPxs/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>Con amor: © DAW2 - 2023 - Marc García-Cuevas y Alejandro Lay :) </p>
+        </div>
+    </div>
+</body>
+
+</html>
